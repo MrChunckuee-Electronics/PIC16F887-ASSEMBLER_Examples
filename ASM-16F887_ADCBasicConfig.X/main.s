@@ -5,15 +5,15 @@
 ;*******************************************************************************
 ;* FileName:        main.asm
 ;* Processor:       PIC16F887
-;* Complier:        MPASM v5.77
-;* Author:          Pedro Sánchez (MrChunckuee)
+;* Complier:        PIC-AS v2.36
+;* Author:          Pedro SÃ¡nchez (MrChunckuee)
 ;* Blog:            http://mrchunckuee.blogspot.com/
 ;* Email:           mrchunckuee.psr@gmail.com
 ;* Description:     Controlar los 8 LEDs en el puerto D, dependiendo del nivel 
 ;*		    de voltaje en RA0.
 ;*******************************************************************************
 ;* Rev.         Date            Comment
-;*  v1.0.0	15/06/2015      - Creación del firmware
+;*  v1.0.0	15/06/2015      - CreaciÃ³n del firmware
 ;*  v1.0.1	11/10/2019	- Pruebas y revision del codigo, ademas se agrego 
 ;*				  los comentario en las lineas.
 ;*  v1.0.2	28/06/2025	- Cambios para usar el PIC-AS del compilador XC8
@@ -204,17 +204,17 @@ Update_LED8:
 ; Retardo = 2 + 4M + 4KM para K=249 y suponiendo M=1 tenemos
 ; Retardo = 1002 us = 1 ms
 Retardo_ms:
-	movwf	RContadorB		; 1 ciclos máquina.
+	movwf	RContadorB		; 1 ciclos mÃ¡quina.
 Retardo_BucleExterno:
-	movlw	249                     ; Mx1 ciclos máquina. Este es el valor de "K".
-	movwf	RContadorA              ; Mx1 ciclos máquina.
+	movlw	249                     ; Mx1 ciclos mÃ¡quina. Este es el valor de "K".
+	movwf	RContadorA              ; Mx1 ciclos mÃ¡quina.
 Retardo_BucleInterno:
-	nop                             ; KxMx1 ciclos máquina.
+	nop                             ; KxMx1 ciclos mÃ¡quina.
 	decfsz	RContadorA,F            ; (K-1)xMx1 cm (si no salta) + Mx2 cm (al saltar).
-	goto	Retardo_BucleInterno    ; (K-1)xMx2 ciclos máquina.
+	goto	Retardo_BucleInterno    ; (K-1)xMx2 ciclos mÃ¡quina.
 	decfsz	RContadorB,F            ; (M-1)x1 cm (si no salta) + 2 cm (al saltar).
-	goto	Retardo_BucleExterno	; (M-1)x2 ciclos máquina.
-	return                          ; 2 ciclos máquina.
+	goto	Retardo_BucleExterno	; (M-1)x2 ciclos mÃ¡quina.
+	return                          ; 2 ciclos mÃ¡quina.
  
 END RESETSys     ;Fin del programa
 
