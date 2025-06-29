@@ -55,67 +55,67 @@ STRING 45-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $build/default/production/main.o
-0 mainVec CODE >64:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-6 mainVec CODE >66:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-8 mainVec CODE >67:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-9 mainVec CODE >68:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-A mainVec CODE >70:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-C mainVec CODE >71:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-D mainVec CODE >72:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-E mainVec CODE >74:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-10 mainVec CODE >75:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-11 mainVec CODE >76:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-13 mainVec CODE >77:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-14 mainVec CODE >78:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-15 mainVec CODE >81:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-17 mainVec CODE >82:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-18 mainVec CODE >83:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-1A mainVec CODE >84:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-1B mainVec CODE >88:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-1C mainVec CODE >89:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-1D mainVec CODE >90:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-1E mainVec CODE >91:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-1F mainVec CODE >93:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-20 mainVec CODE >94:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-21 mainVec CODE >95:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-22 mainVec CODE >96:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-23 mainVec CODE >98:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-24 mainVec CODE >99:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-25 mainVec CODE >100:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-26 mainVec CODE >101:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-27 mainVec CODE >103:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-28 mainVec CODE >104:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-29 mainVec CODE >105:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-2A mainVec CODE >106:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-2B mainVec CODE >108:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-2C mainVec CODE >112:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-2D mainVec CODE >114:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-2E mainVec CODE >115:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-2F mainVec CODE >116:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-30 mainVec CODE >117:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-31 mainVec CODE >118:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-32 mainVec CODE >119:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-33 mainVec CODE >120:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-34 mainVec CODE >121:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-35 mainVec CODE >122:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-36 mainVec CODE >123:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-37 mainVec CODE >133:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-38 mainVec CODE >134:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-39 mainVec CODE >136:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-3A mainVec CODE >137:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-3B mainVec CODE >139:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-3C mainVec CODE >140:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-3D mainVec CODE >142:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-3E mainVec CODE >143:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-3F mainVec CODE >144:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-40 mainVec CODE >145:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-41 mainVec CODE >146:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-42 mainVec CODE >147:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-43 mainVec CODE >148:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-44 mainVec CODE >149:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-0 resetVec CODE >57:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-0 resetVec CODE >59:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
-2 resetVec CODE >60:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+0 mainVec CODE >64:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+6 mainVec CODE >66:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+8 mainVec CODE >67:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+9 mainVec CODE >68:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+A mainVec CODE >70:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+C mainVec CODE >71:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+D mainVec CODE >72:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+E mainVec CODE >74:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+10 mainVec CODE >75:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+11 mainVec CODE >76:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+13 mainVec CODE >77:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+14 mainVec CODE >78:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+15 mainVec CODE >81:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+17 mainVec CODE >82:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+18 mainVec CODE >83:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+1A mainVec CODE >84:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+1B mainVec CODE >88:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+1C mainVec CODE >89:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+1D mainVec CODE >90:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+1E mainVec CODE >91:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+1F mainVec CODE >93:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+20 mainVec CODE >94:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+21 mainVec CODE >95:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+22 mainVec CODE >96:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+23 mainVec CODE >98:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+24 mainVec CODE >99:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+25 mainVec CODE >100:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+26 mainVec CODE >101:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+27 mainVec CODE >103:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+28 mainVec CODE >104:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+29 mainVec CODE >105:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+2A mainVec CODE >106:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+2B mainVec CODE >108:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+2C mainVec CODE >112:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+2D mainVec CODE >114:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+2E mainVec CODE >115:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+2F mainVec CODE >116:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+30 mainVec CODE >117:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+31 mainVec CODE >118:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+32 mainVec CODE >119:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+33 mainVec CODE >120:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+34 mainVec CODE >121:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+35 mainVec CODE >122:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+36 mainVec CODE >123:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+37 mainVec CODE >133:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+38 mainVec CODE >134:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+39 mainVec CODE >136:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+3A mainVec CODE >137:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+3B mainVec CODE >139:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+3C mainVec CODE >140:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+3D mainVec CODE >142:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+3E mainVec CODE >143:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+3F mainVec CODE >144:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+40 mainVec CODE >145:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+41 mainVec CODE >146:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+42 mainVec CODE >147:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+43 mainVec CODE >148:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+44 mainVec CODE >149:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+0 resetVec CODE >57:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+0 resetVec CODE >59:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
+2 resetVec CODE >60:C:\Users\mrchu\Documentos\GitHub\Microchip\PIC16F887-ASSEMBLER_Examples\ASM-16F887_7SegmentDisplay_TestDigits.X\main.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
