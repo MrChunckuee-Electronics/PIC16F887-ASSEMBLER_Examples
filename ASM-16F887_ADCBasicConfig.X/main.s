@@ -109,7 +109,6 @@ ADC_Read:
     ;Esto puede realizarse si solo se necesitan 8 bits de resolucion y no
     ;los 10 que provee el ADC.
 
-
 ;********** R U T I N A  *  L E D s ********************************************
 ; Cargamos un valor a W.
 ; Le restamos al ADC el valor de W.
@@ -217,5 +216,3 @@ Retardo_BucleInterno:
 	return                          ; 2 ciclos máquina.
  
 END RESETSys     ;Fin del programa
-
-
