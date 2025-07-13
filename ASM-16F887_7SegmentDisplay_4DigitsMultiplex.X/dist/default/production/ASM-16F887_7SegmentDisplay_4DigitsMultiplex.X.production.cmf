@@ -1,0 +1,237 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$build/default/production/main.o
+resetVec CODE 0 0 0 3 2 1
+udata_bank0 BANK0 1 20 20 7 1 1
+mainVec CODE 0 0 0 71 2 1
+config CONFIG 4 2007 2007 2 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 27-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 27-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 71-1FFF 2
+ENTRY 71-1FFF 2
+IDLOC 2000-2003 2
+CODE 71-1FFF 2
+SFR2 100-10F 1
+SFR3 180-18F 1
+COMMON 70-7F 1
+EEDATA 2100-21FF 2
+STRCODE 71-1FFF 2
+STRING 71-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$build/default/production/main.o
+0 mainVec CODE >68:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+6 mainVec CODE >70:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+8 mainVec CODE >71:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+9 mainVec CODE >72:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+A mainVec CODE >74:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+C mainVec CODE >75:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+D mainVec CODE >76:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+E mainVec CODE >78:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+10 mainVec CODE >79:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+11 mainVec CODE >80:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+13 mainVec CODE >81:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+14 mainVec CODE >83:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+16 mainVec CODE >84:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+17 mainVec CODE >85:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+19 mainVec CODE >86:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+1A mainVec CODE >88:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+1C mainVec CODE >89:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+1D mainVec CODE >90:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+1F mainVec CODE >91:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+20 mainVec CODE >92:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+22 mainVec CODE >93:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+23 mainVec CODE >94:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+25 mainVec CODE >95:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+26 mainVec CODE >99:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+27 mainVec CODE >100:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+28 mainVec CODE >101:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+29 mainVec CODE >102:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+2A mainVec CODE >103:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+2B mainVec CODE >104:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+2C mainVec CODE >105:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+2D mainVec CODE >106:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+2E mainVec CODE >107:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+2F mainVec CODE >108:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+30 mainVec CODE >109:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+31 mainVec CODE >110:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+32 mainVec CODE >111:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+33 mainVec CODE >112:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+34 mainVec CODE >113:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+35 mainVec CODE >114:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+36 mainVec CODE >115:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+37 mainVec CODE >116:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+38 mainVec CODE >117:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+39 mainVec CODE >118:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+3A mainVec CODE >119:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+3B mainVec CODE >120:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+3C mainVec CODE >121:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+3D mainVec CODE >122:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+3E mainVec CODE >126:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+3F mainVec CODE >127:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+40 mainVec CODE >130:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+41 mainVec CODE >131:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+42 mainVec CODE >132:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+43 mainVec CODE >133:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+44 mainVec CODE >134:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+45 mainVec CODE >135:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+46 mainVec CODE >136:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+47 mainVec CODE >137:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+48 mainVec CODE >138:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+49 mainVec CODE >139:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+4A mainVec CODE >140:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+4B mainVec CODE >141:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+4C mainVec CODE >142:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+4D mainVec CODE >143:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+4E mainVec CODE >144:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+4F mainVec CODE >145:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+50 mainVec CODE >146:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+51 mainVec CODE >147:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+52 mainVec CODE >148:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+53 mainVec CODE >149:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+54 mainVec CODE >150:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+55 mainVec CODE >151:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+56 mainVec CODE >152:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+57 mainVec CODE >153:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+58 mainVec CODE >154:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+59 mainVec CODE >155:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+5A mainVec CODE >156:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+5B mainVec CODE >160:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+5C mainVec CODE >162:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+5D mainVec CODE >163:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+5E mainVec CODE >164:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+5F mainVec CODE >165:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+60 mainVec CODE >166:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+61 mainVec CODE >167:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+62 mainVec CODE >168:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+63 mainVec CODE >169:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+64 mainVec CODE >170:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+65 mainVec CODE >171:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+66 mainVec CODE >179:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+67 mainVec CODE >180:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+68 mainVec CODE >187:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+69 mainVec CODE >189:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+6A mainVec CODE >190:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+6B mainVec CODE >192:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+6C mainVec CODE >193:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+6D mainVec CODE >194:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+6E mainVec CODE >195:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+6F mainVec CODE >196:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+70 mainVec CODE >197:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+0 resetVec CODE >61:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+0 resetVec CODE >63:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+2 resetVec CODE >64:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - Assembler\ASM-16F887_7SegmentDisplay_4DigitsMultiplex.X\main.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__Hspace_0 71 0 ABS 0 - -
+__Hspace_1 27 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 4010 0 ABS 0 - -
+__Hudata_bank0 0 0 ABS 0 udata_bank0 -
+__Hudata_bank1 0 0 ABS 0 udata_bank1 -
+__Hudata_bank2 0 0 ABS 0 udata_bank2 -
+__Hudata_bank3 0 0 ABS 0 udata_bank3 -
+__HmainVec 0 0 ABS 0 mainVec -
+__LresetVec 0 0 ABS 0 resetVec -
+__HresetVec 0 0 ABS 0 resetVec -
+__Hedata 0 0 ABS 0 edata -
+__Hudata 0 0 ABS 0 udata -
+__Hconfig 4012 0 CONFIG 4 config -
+__Ledata 0 0 ABS 0 edata -
+__Ludata 0 0 ABS 0 udata -
+__Hcode 0 0 ABS 0 code -
+__Hdata 0 0 ABS 0 data -
+__Lcode 0 0 ABS 0 code -
+__Ldata 0 0 ABS 0 data -
+__S0 0 0 ABS 0 - -
+__S1 27 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__Lconfig 0 0 CONFIG 4 config -
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__LmainVec 0 0 ABS 0 mainVec -
+__Ludata_bank0 0 0 ABS 0 udata_bank0 -
+__Ludata_bank1 0 0 ABS 0 udata_bank1 -
+__Ludata_bank2 0 0 ABS 0 udata_bank2 -
+__Ludata_bank3 0 0 ABS 0 udata_bank3 -
+__Hudata_shr 0 0 ABS 0 udata_shr -
+__Ludata_shr 0 0 ABS 0 udata_shr -
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+udata_bank0 1 20 20 7 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
