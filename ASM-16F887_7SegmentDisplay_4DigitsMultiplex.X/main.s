@@ -6,13 +6,13 @@
 ;* FileName:        main.asm
 ;* Processor:       PIC16F887
 ;* Complier:        PIC-AS v2.36
-;* Author:          Pedro Sánchez (MrChunckuee)
+;* Author:          Pedro SÃ¡nchez (MrChunckuee)
 ;* Blog:            http://mrchunckuee.blogspot.com/
-;* Email:           mrchunckuee.psr@gmail.com
+;* Email:           mrchunckuee.electronics@gmail.com
 ;* Description:     Miltiplxacion de 4 displays de 7 segmentos
 ;*******************************************************************************
 ;* Rev.         Date            Comment
-;*  v0.0.1	01/07/2025      - Creación del firmware
+;*  v0.0.1	01/07/2025      - CreaciÃ³n del firmware
 ;*******************************************************************************
 
 PROCESSOR 16F887
@@ -48,7 +48,7 @@ Centena:	    DS      1
 Millar:		    DS      1
 Contador:	    DS      1
       
-; Definición de pines para transistores
+; DefiniciÃ³n de pines para transistores
 #define TRANSISTOR_UNIDAD   PORTC, 0   ; Display 1
 #define TRANSISTOR_DECENA   PORTC, 1   ; Display 2
 #define TRANSISTOR_CENTENA  PORTC, 2   ; Display 3
@@ -175,25 +175,25 @@ TABLA7Segmentos:
 ; Tenemos para Retardo_5ms = 2 + 1 + 2 + (2 + 4M + 4KM) donde K=249 y M=10
 ; Retardo = 10002 * 0.5us = 5 ms
 
-Retardo_5ms:		    ; 2 ciclo máquina
-	MOVLW	10	    ; 1 ciclo máquina. Este es el valor de "M"
-	GOTO    Retardo_ms  ; 2 ciclo máquina.
+Retardo_5ms:		    ; 2 ciclo mÃ¡quina
+	MOVLW	10	    ; 1 ciclo mÃ¡quina. Este es el valor de "M"
+	GOTO    Retardo_ms  ; 2 ciclo mÃ¡quina.
 
 ; Las siguientes lineas duran
 ; Retardo = 1 + M + M + KM + (K-1)M + 2M + (K-1)2M + (M-1) + 2 + 2(M-1) + 2
 ; Retardo = 2 + 4M + 4KM para K=249 y suponiendo M=1 tenemos
 ; Retardo = 1002 *0.5us = 0.5 ms
 Retardo_ms:
-	MOVWF	RContadorB		; 1 ciclos máquina.
+	MOVWF	RContadorB		; 1 ciclos mÃ¡quina.
 Retardo_BucleExterno:
-	MOVLW	249			; Mx1 ciclos máquina. Este es el valor de "K".
-	MOVWF	RContadorA		; Mx1 ciclos máquina.
+	MOVLW	249			; Mx1 ciclos mÃ¡quina. Este es el valor de "K".
+	MOVWF	RContadorA		; Mx1 ciclos mÃ¡quina.
 Retardo_BucleInterno:
-	NOP				; KxMx1 ciclos máquina.
+	NOP				; KxMx1 ciclos mÃ¡quina.
 	DECFSZ	RContadorA,1		; (K-1)xMx1 cm (si no salta) + Mx2 cm (al saltar).
-	GOTO	Retardo_BucleInterno	; (K-1)xMx2 ciclos máquina.
+	GOTO	Retardo_BucleInterno	; (K-1)xMx2 ciclos mÃ¡quina.
 	DECFSZ	RContadorB,1		; (M-1)x1 cm (si no salta) + 2 cm (al saltar).
-	GOTO	Retardo_BucleExterno	; (M-1)x2 ciclos máquina.
-	RETURN				; 2 ciclos máquina.
+	GOTO	Retardo_BucleExterno	; (M-1)x2 ciclos mÃ¡quina.
+	RETURN				; 2 ciclos mÃ¡quina.
     
 END RESETSys
